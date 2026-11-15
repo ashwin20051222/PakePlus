@@ -1,175 +1,155 @@
-<h4 align="right"> 
-<span href=".README.md">English</span> 
-<a href="https://ppofficial.netlify.app/zh/" 
-style="margin: 0 10px;" >简体中文</a> 
-<a href="https://github.com/Sjj1024/PabBao/discussions/108">日本语</a>
-</h4>  
-<p align="center">
-    <img src="https://pakeplus.com/pplogo.png" width=300/>
-</p>
-<h1 align="center">PacBao｜PakePlus</h1>  
-<p align="center"><strong>Turn any webpage/Vue/React and so on into desktop and mobile app under 5M with easy in few minutes</strong>
-</p>
+# WhatsApp for Linux
 
 <p align="center">
-    <a href="https://github.com/Sjj1024/PakePlus/releases"><img src="https://img.shields.io/github/v/release/Sjj1024/PakePlus?style=flat-square&logo=github" alt="Release"></a>
-    <a href="https://github.com/Sjj1024/PakePlus/stargazers"><img src="https://img.shields.io/github/stars/Sjj1024/PakePlus?style=flat-square&logo=github" alt="Stars"></a>
-    <a href="https://github.com/Sjj1024/PakePlus/stargazers"><img src="https://img.shields.io/github/forks/Sjj1024/PakePlus?style=flat-square&logo=github" alt="Forks"></a>
-    <a href="https://github.com/Sjj1024/PakePlus/actions/workflows/build.yml"><img src="https://img.shields.io/github/actions/workflow/status/Sjj1024/PakePlus/build.yml?style=flat-square&logo=github" alt="Build"></a>
-    <a href="https://github.com/Sjj1024/PakePlus/blob/main/LICENSE"><img src="https://img.shields.io/github/license/Sjj1024/PakePlus?style=flat-square&logo=github" alt="License"></a>
-    <a href="https://app.netlify.com/projects/pakeplus/deploys"><img src="https://api.netlify.com/api/v1/badges/f8454a03-8724-4797-9fe4-e6c51dd90e3a/deploy-status" alt="License"></a>
+  <img src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg" width="100" alt="WhatsApp logo">
 </p>
 
-<div align="left">PacBao supports Mac, Windows, Linux, and Android & iOS. There’s no need to install complex dependencies locally, PacBao is only about 10MB in size. For the latest version, please see the <a href="[#popular-packages](https://github.com/Sjj1024/pakeplus/releases)">release page</a>. or visit: <a href="https://pakeplus.pages.dev" target="_blank">PacBao Web</a>. 
-Document: <a href="https://pakeplus.com/guide/" target="_blank">PacBao Guide</a></div>  
-<br>
+<h1 align="center">WhatsApp for Linux</h1>
 
-> Due to individuals using this project to package illegal software, which violates its intended purpose, the front-end code will no longer be open-source. If such behavior is found again, all code in this project will cease to be open-source. Please use this software legally and responsibly, or bear the consequences.
-
-https://github.com/user-attachments/assets/b88bf541-0b26-4020-9eec-da79e1734fc9
-
-<h1 align="center">Sponsors</h1>
-
-<p>
-PakePlus is an MIT-licensed open source project with its ongoing development made possible entirely by the support of these awesome backers. If you'd like to join them, please consider sponsoring PakePlus's development.
+<p align="center">
+  A dedicated desktop experience for WhatsApp Web on Linux.
 </p>
 
-<table style="border-collapse: collapse; width: 100%; border: 1px solid #ddd;">
-    <tr>
-        <td align="center" style="border: 1px solid #ddd; padding: 20px;">
-            <a href="https://finevoice.ai/?ref=pakeplus" target="_blank">
-            <img style="border-radius: 1.5rem" src="https://files.pakeplus.com/finevoice.png" width="100"/>
-            <h3 style="margin: 0">FineVoice</h3>
-            <p style="margin: 0">Create Every Voice You Imagine</p>
-            </a>
-        </td>
-        <td align="center" style="border: 1px solid #ddd; padding: 20px;">
-            <img style="border-radius: 1.5rem" src="https://avatars.githubusercontent.com/u/54536011?s=200&v=4" width="100"/>
-            <h3 style="margin: 0"><a href="https://tauri.app/" target="_blank">Tauri</a></h3>
-            <p style="margin: 0">Create cross-platform applications</p>
-        </td>
-        <td align="center" style="border: 1px solid #ddd; padding: 20px;">
-            <img style="border-radius: 1.5rem" src="https://avatars.githubusercontent.com/u/126759922?s=200&v=4" width="100"/>
-            <h3 style="margin: 0"><a href="https://cursor.com/agents" target="_blank">Cursor</a></h3>
-            <p style="margin: 0">Cursor is the best way to code with AI.</p>
-        </td>
-        <td align="center" style="border: 1px solid #ddd; padding: 20px;">
-            <img style="border-radius: 1.5rem" src="https://avatars.githubusercontent.com/u/878437?s=200&v=4" width="100"/>
-            <h3 style="margin: 0"><a href="https://www.jetbrains.com/idea/" target="_blank">JetBrains</a></h3>
-            <p style="margin: 0">The Leading IDE for Professional Development</p>
-        </td>
-    </tr>
-</table>
+<p align="center">
+  <img src="https://img.shields.io/badge/Platform-Linux-black?logo=linux">
+  <img src="https://img.shields.io/badge/Architecture-x86__64-blue">
+  <img src="https://img.shields.io/badge/Framework-Electron-47848F?logo=electron">
+  <img src="https://img.shields.io/badge/Package-AppImage-green">
+  <img src="https://img.shields.io/badge/Status-Personal%20Project-orange">
+</p>
+
+---
+
+## Overview
+
+**WhatsApp for Linux** is an unofficial desktop application that packages WhatsApp Web into a standalone Electron-based application.
+
+It provides Linux users with a dedicated application window for messaging and communication without needing to keep WhatsApp open in a browser tab.
+
+The application connects to the official WhatsApp Web service and uses WhatsApp's linked-device functionality.
 
 ## Features
 
--   💎 Approximately 20 times smaller than Electron (less than 5MB!) and 10 times faster.
--   🚀 Built with Rust Tauri, PacBao is lighter and faster than JavaScript-based frameworks.
--   📦 Comes with rich built-in features — supports shortcuts, immersive windows, and minimalist customization.
--   👻 PacBao is a minimalist tool that replaces traditional packaging with Tauri for cross-platform desktop apps.
--   📲 Uses native frameworks to package Android and iOS apps — smaller and faster than Tauri2.
--   🤗 Easy to use — just one GitHub Token is all you need to get a desktop app.
--   🌹 No need to install complex dependencies locally — use GitHub Actions for cloud-based automatic packaging.
--   🧑‍🤝‍🧑 Internationalization support — automatically follows your system language.
--   💡 Supports custom JavaScript injection — write your own JS to inject into the page.
--   🎨 Beautiful and user-friendly UI — better experience for beginners, supports Chinese names for packaging.
--   📡 Usable directly via the web, but the client offers stronger functionality and is recommended.
--   🔐 Data security — your token is stored only locally, and your project stays safely in your own Git repo.
--   🍔 Supports local packaging and does not require installation of any dependent environments. Local packaging only takes 30 seconds
--   🥥 It's okay without Github Token, local packaging is simple and convenient, and no Token is needed
--   ⚔️ Support calling system level APIs in JS scripts, such as downloading files/executing commands/opening new windows, etc
--   🍀 Supports static file packaging — drop in a compiled dist folder or index.html from Vue/React to create a client app.
--   🐞 Debug mode supported — find and eliminate bugs during preview or release.
--   💬 If you run into any issues, feel free to join our technical community for help.
+- Dedicated WhatsApp desktop application.
+- Access to WhatsApp Web.
+- QR-code-based account linking.
+- Messaging and conversation management.
+- Photo and document sharing supported by WhatsApp Web.
+- Standalone application window.
+- Linux x86_64 AppImage distribution.
+- Dedicated desktop launcher and application icon.
 
-## Use Cases
+Feature availability depends on WhatsApp Web.
 
--   Have a website? Instantly turn it into a app and elevate its appearance.
--   Have a Vue/React project and don’t want to buy a server? Package it as a desktop app.
--   Want your Cocos game to run as a cross-platform client? No problem.
--   Need to build your Unity project as a cross-platform client? Also no problem.
--   Hide your website address from casual sharing or bots scraping your content.
--   For internal company platforms — restrict access to your site via a dedicated client only.
--   Turn any website into your custom client — inject JS for automation and custom features.
--   Annoyed by website ads? Hide them with powerful JS.
--   Want to use Tauri2 but the environment is too heavy? Use PacBao instead!
+## Screenshots
 
-## Getting Started
+Screenshots of the application can be added here.
 
-1. Download the app from the release page：https://github.com/Sjj1024/PakePlus/releases,  
-   double-click to install, and run the app. or visit web:
+## Download
 
-<a href="https://pakeplus.pages.dev" target="_blank">PacBao Web</a>
+Visit the GitHub Releases page to download the latest version.
 
-2. Configure GitHub token or use local packaging, create a new project, and set up the configurations. get token guide. (When using this software, please comply with relevant laws and regulations. If you use GitHub token to use this project, it will automatically star the project and the compilation results will be counted for success or failure to improve the project and obtain feedback. Packaging is for personal use only and should not be disseminated or used for commercial purposes. The packaged resources will be stored in your own Github open source repository and can be viewed by anyone. Therefore, please strictly follow the Github usage guidelines, otherwise you will be responsible for the consequences)
+**[Download WhatsApp for Linux](https://github.com/ashwin20051222/Whatsapp_for_linux/releases)**
 
-<a href="https://sjj1024.github.io/PakePlus/index_en.html">English</a> <a href="https://PakePlus.com/zh/guide/token.html" style="margin: 0 50px;">简体中文</a><a href="https://sjj1024.github.io/PakePlus/index_ja.html">日本语</a>
+### Available package
 
-```
-Explanation of Github Token permissions:
-1. For the beta version, token permissions required:
-All repositories: Fork an original template repository
-Actions: Manage GitHub actions
-Administration: Fork and manage files in the repository
-Contents: Add, delete, modify, and find repository contents
-Issues: Submit issues to PacBao
+| Package | Platform | Architecture |
+|---|---|---|
+| AppImage | Linux | x86_64 |
 
-1. For the classic version, token permissions required:
-repo: Fork and manage template code
-workflow: Compile and release your software
+## Installation
+
+### Arch Linux and other AppImage-compatible distributions
+
+Download the latest `.AppImage` file from Releases.
+
+Make the downloaded file executable:
+
+```bash
+chmod +x WhatsApp-Web_0.0.1_amd64.AppImage
 ```
 
-3. You can preview the app in a new window and click the publish button to package the app.
-4. You can download the app from the release page.
+Launch the application:
 
-## FAQ
-
-1. Mac users may see an “App is damaged” warning on installation. click cancel and Run the following command, then reopen the app:（This is because the application requires an official signature to avoid the prompt of "The application is damaged" popping up after installation. However, the cost of the official signature is $99 per year... Therefore, it is necessary to manually bypass the signature to use it normally）
-
-```sh
-sudo xattr -r -d com.apple.quarantine /Applications/PacBao.app
+```bash
+./WhatsApp-Web_0.0.1_amd64.AppImage
 ```
 
-1. When you package the app, Mac users may see an “App is damaged” warning on installation. click cancel and Run the following command, then reopen the app:
+### Optional application directory
 
-```sh
-sudo xattr -r -d com.apple.quarantine /Applications/YourAppName.app
+```bash
+mkdir -p ~/Applications/WhatsApp
+
+cp WhatsApp-Web_0.0.1_amd64.AppImage \
+   ~/Applications/WhatsApp/WhatsApp.AppImage
+
+chmod +x ~/Applications/WhatsApp/WhatsApp.AppImage
 ```
 
-3. If you encounter any issues while using the program, please download the latest version, as versions developed before 2025 were based on Tauri v1.0. In 2025, Tauri was upgraded to v2.0. If the latest version still has issues, please submit an issue with detailed information so that we can update and resolve it more quickly.
+Launch:
 
-4. After you add the GitHub Token, PacBao will fork a PacBao repository into your own repository. All your future projects will rely on this repository for creation and compilation, so please do not delete your PacBao repository.
-
-## Custom Development
-
-If you want to Contribution PacBao, ensure your environment is prepared beforehand. Make sure Rust `>=1.63` and Node `>=16` (e.g., `16.18.1`) are installed on your computer. For installation guidance, please refer to the [Tauri Documentation](https://tauri.app/v1/guides/getting-started/prerequisites).
-
-If you’re unfamiliar with these, it’s best to try the one-click packaging tool above.
-
-```sh
-# Install dependencies
-pnpm i
-
-# Local development [Right-click to open debug mode.]
-pnpm run dev
-
-# Package the app
-pnpm run build
-
+```bash
+~/Applications/WhatsApp/WhatsApp.AppImage
 ```
 
-All work is conducted openly on GitHub. Whether you are a core team member or an external contributor, all Pull Requests must go through the same review process.
+Replace the example filename with the actual downloaded release filename when necessary.
 
-## Support
+## Account Setup
 
-1. wechat and group，my wechat is lanxingme，welcome to join the wechat group.
- <p align="center" style="display:flex; justify-content: flex-start;" >
-    <img src="https://github.com/Sjj1024/PacBao-Doc/raw/main/static/imgs/mywx.png" width=200/>
-    <img src="https://gh-proxy.org/https://github.com/Sjj1024/PakePlus/blob/main/docs/static/imgs/wxcode.jpg" width=200/>
-    <img src="https://github.com/Sjj1024/PacBao-Doc/raw/main/static/imgs/qqpp3.jpg" width=200/>
- </p>
+1. Launch WhatsApp for Linux.
+2. Wait for the WhatsApp Web login screen.
+3. Open WhatsApp on your smartphone.
+4. Navigate to **Linked Devices**.
+5. Select **Link a Device**.
+6. Scan the QR code displayed in the desktop application.
 
-2. 💖If PacBao has brought joy to your life, feel free to support it.
- <p align="center" style="display:flex; justify-content: flex-start;">
-    <img src="https://github.com/Sjj1024/PacBao-Doc/raw/main/static/imgs/sponsor.webp" width=620/>
- </p>
+Your existing WhatsApp account will be connected through WhatsApp's linked-device functionality.
+
+## System Requirements
+
+| Component | Requirement |
+|---|---|
+| Operating System | Linux |
+| CPU Architecture | x86_64 / AMD64 |
+| Application Framework | Electron |
+| Distribution Format | AppImage |
+| Internet Connection | Required |
+| WhatsApp Account | Required |
+
+## Project Information
+
+| Property | Details |
+|---|---|
+| Project | WhatsApp for Linux |
+| Version | 0.0.1 |
+| Framework | Electron |
+| Target Platform | Linux |
+| Architecture | x86_64 |
+| Repository | [Whatsapp_for_linux](https://github.com/ashwin20051222/Whatsapp_for_linux) |
+
+## Privacy and Security
+
+This application is a desktop wrapper around WhatsApp Web. It does not implement an independent messaging service or replace WhatsApp's infrastructure.
+
+Authentication, conversations, messaging and linked-device functionality are provided by WhatsApp.
+
+Never share your QR code, authentication session, or personal account information.
+
+## Disclaimer
+
+WhatsApp for Linux is an independent, unofficial community project.
+
+It is not affiliated with, endorsed by, sponsored by, or officially supported by WhatsApp or Meta Platforms, Inc.
+
+WhatsApp and its logo are trademarks of their respective owners.
+
+## License
+
+This repository's licensing terms should be followed when using or redistributing the project. Refer to the repository's LICENSE file where available.
+
+## Links
+
+- **Repository:** https://github.com/ashwin20051222/Whatsapp_for_linux
+- **Releases:** https://github.com/ashwin20051222/Whatsapp_for_linux/releases
+- **WhatsApp Web:** https://web.whatsapp.com/
+- **Issues:** https://github.com/ashwin20051222/Whatsapp_for_linux/issues
